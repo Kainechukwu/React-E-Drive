@@ -1,0 +1,77 @@
+// Import Tailwind CSS
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+// Your custom SCSS styles go here
+
+.brandBtn {
+  @apply bg-brand text-white max-w-max  rounded-lg px-[20px] py-[12px];
+}
+.buyBgImg {
+  background-image: url("/src/assets/images/BuyACar.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+  @apply px-4 xl:px-[112px] mx-auto;
+}
+
+.header {
+  @apply py-[31px];
+}
+
+.homeBgImg {
+  background-image: url("/src/assets/images/LandingPage.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.homeBgGradient {
+  height: 100%;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)),
+    linear-gradient(
+      270deg,
+      rgba(246, 14, 14, 0.3) 0.12%,
+      rgba(255, 168, 0, 0.3) 99.99%
+    );
+}
+
+.leaseBgImg {
+  background-image: url("/src/assets/images/LandingPage.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.overlay {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)),
+    linear-gradient(
+      270deg,
+      rgba(246, 14, 14, 0.3) 0.12%,
+      rgba(255, 168, 0, 0.3) 99.99%
+    );
+}
+.rentBgImg {
+  background-image: url("/src/assets/images/RentCar.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
