@@ -59,6 +59,14 @@
   background-size: cover;
 }
 
+.mainCTABgImg {
+  background-image: url("/src/assets/images/MainCTA.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .overlay {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)),
     linear-gradient(
