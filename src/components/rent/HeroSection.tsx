@@ -4,7 +4,7 @@ import GetStartedBtn from "../reusable/GetStartedBtn";
 const HeroSection: React.FC = () => {
   return (
     <div className="rentBgImg h-full min-h-[524px] max-h-[524px]">
-      <div className="overlay h-full w-full  min-h-[524px] max-h-[524px]">
+      <div className="overlay3 h-full w-full  min-h-[524px] max-h-[524px]">
         <div className="container flex flex-col pt-[128px] pb-[79px]">
           <div className="flex flex-col gap-5">
             <h1 className="max-w-[544px] text-white font-bold text-[60px] leading-[72px]">

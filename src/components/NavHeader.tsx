@@ -5,15 +5,15 @@ import { Link } from "react-router-dom"; // Import Link from React Router
 const NavHeader: React.FC = () => {
   const links = [
     {
-      name: "Buy Car",
+      name: "Buy a Car",
       path: "/buy",
     },
     {
-      name: "Rent Car",
+      name: "Rent a Car",
       path: "/rent",
     },
     {
-      name: "Lease Car",
+      name: "Lease a Car",
       path: "/lease",
     },
   ];

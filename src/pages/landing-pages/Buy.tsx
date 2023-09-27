@@ -2,6 +2,7 @@ import React from "react";
 import HeroSection from "./../../components/buy/HeroSection";
 import GetInTouch from "./../../components/reusable/GetInTouch";
 import EligibilityAndBenefits from "./../../components/reusable/EligibilityAndBenefits";
+import Recommendation from "./../../components/reusable/Recommendation";
 
 const Buy: React.FC = () => {
   const text = {
@@ -24,9 +25,15 @@ const Buy: React.FC = () => {
       ],
     },
   };
+  const recommendationText = {
+    title: "Available cars for Financing",
+    subTitle: "Check out these recommendations based on our bestsellers",
+  };
   return (
     <div className="flex flex-col">
       <HeroSection />
+      <Recommendation text={recommendationText} />
+
       <EligibilityAndBenefits text={text} />
       <GetInTouch />
     </div>

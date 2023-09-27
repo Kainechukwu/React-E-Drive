@@ -4,7 +4,14 @@
 @import "tailwindcss/utilities";
 
 // Your custom SCSS styles go here
-
+.applyForFinancing {
+  background-image: url("/src/assets/images/ApplyForFinancing.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .brandBtn {
   @apply bg-brand text-white max-w-max  rounded-lg px-[20px] py-[12px];
 }
@@ -16,9 +23,17 @@
   -o-background-size: cover;
   background-size: cover;
 }
+.carRenting {
+  background-image: url("/src/assets/images/CarRenting.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 .container {
-  @apply px-4 xl:px-[112px] mx-auto;
+  @apply px-4 xl:px-[50px] mx-auto;
 }
 
 .header {
@@ -49,6 +64,14 @@
       rgba(255, 168, 0, 0.3) 99.99%
     );
 }
+.leaseACar {
+  background-image: url("/src/assets/images/RentACar.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 .leaseBgImg {
   background-image: url("/src/assets/images/LandingPage.png");
@@ -69,6 +92,19 @@
 }
 .overlay {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.33)),
+    linear-gradient(
+      270deg,
+      rgba(246, 14, 14, 0.3) 0.12%,
+      rgba(255, 168, 0, 0.3) 99.99%
+    );
+}
+.overlay2 {
+  background: rgba(0, 0, 0, 0.42);
+  border-radius: 10px;
+}
+
+.overlay3 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     linear-gradient(
       270deg,
       rgba(246, 14, 14, 0.3) 0.12%,

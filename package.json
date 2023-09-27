@@ -8,6 +8,7 @@
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
+    "@material-tailwind/react": "^2.1.2",
     "@reduxjs/toolkit": "^1.6.1",
     "@vitejs/plugin-react": "^3.0.0",
     "react": "^18",

@@ -6,7 +6,7 @@ import { Outlet } from "react-router-dom";
 const MainLayout: React.FC = () => {
   return (
     <div className="relative flex flex-col w-full">
-      <div className="sticky top-0 bg-white">
+      <div className="sticky top-0 bg-white z-[1000]">
         <NavHeader />
       </div>
       <div>

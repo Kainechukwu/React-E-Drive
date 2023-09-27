@@ -3,7 +3,7 @@ import GetStartedBtn from "../reusable/GetStartedBtn";
 
 const MainCTA: React.FC = () => {
   return (
-    <div className="mainCTABgImg h-full min-h-[625px] max-h-[625px]">
+    <div className="mt-[114px] mainCTABgImg h-full min-h-[625px] max-h-[625px]">
       <div className="overlay h-full w-full  min-h-[625px] max-h-[625px]">
         <div className="container flex flex-col pt-[128px] pb-[79px]">
           <div className="flex flex-col gap-5">
